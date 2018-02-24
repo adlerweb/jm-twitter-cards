@@ -145,20 +145,16 @@ $settings_fields = array(
 			'type'  => 'text',
 		),
 		array(
-			'label' => __( 'Custom field title', 'jm-tc' ),
-			'desc'  => __( 'If you prefer to use your own field for twitter meta title instead of SEO plugin. Leave it blank if you want to use SEO plugin or default title.', 'jm-tc' ),
-			'name'  => 'twitterCardTitle',
-			'type'  => 'select',
-			'default' => $opts['twitterCardTitle'],
-			'options' => $keys
+			'label'   => __( 'Custom field title', 'jm-tc' ),
+			'desc'    => __( 'If you prefer to use your own field for twitter meta title instead of SEO plugin. Leave it blank if you want to use SEO plugin or default title.', 'jm-tc' ),
+			'name'    => 'twitterCardTitle',
+			'type'    => 'text',
 		),
 		array(
-			'label' => __( 'Custom field desc', 'jm-tc' ),
-			'desc'  => __( 'If you prefer to use your own field for twitter meta description instead of SEO plugin. Leave it blank if you want to use SEO plugin or default desc.', 'jm-tc' ),
-			'name'  => 'twitterCardDesc',
-			'type'  => 'select',
-			'default' => $opts['twitterCardDesc'],
-			'options' => $keys
+			'label'   => __( 'Custom field desc', 'jm-tc' ),
+			'desc'    => __( 'If you prefer to use your own field for twitter meta description instead of SEO plugin. Leave it blank if you want to use SEO plugin or default desc.', 'jm-tc' ),
+			'name'    => 'twitterCardDesc',
+			'type'    => 'text',
 		),
 	),
 	JM_TC_SLUG_CPT_OPTION  => array(
