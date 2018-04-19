@@ -111,6 +111,11 @@ Il suffit de renseigner les clés de vos custom fields en page d'option et le pl
 
 == Changelog ==
 
+### 9.3
+* April 2018
+* fix bug wrong ternaries in class options (props @ioneill)
+* fix sanitize metabox card type not taking into account app card
+
 ### 9.2
 * Feb 2018
 * fix error in about.php

@@ -190,7 +190,8 @@ class Metabox {
 				return in_array( $value, array(
 					'summary',
 					'summary_large_image',
-					'player'
+					'player',
+                    'app'
 				) ) ? sanitize_text_field( $value ) : $this->opts['twitterCardType'];
 				break;
 			case 'cardImageAlt':
